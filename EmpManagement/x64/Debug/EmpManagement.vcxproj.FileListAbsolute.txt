@@ -1,0 +1,2 @@
+D:\CPP_Training\EmpManagement\EmpManagement\EmpManagement\x64\Debug\EmpManagement.exe
+D:\CPP_Training\EmpManagement\EmpManagement - DesignPatterns\EmpManagement\x64\Debug\EmpManagement.exe
