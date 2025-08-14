@@ -1,0 +1,38 @@
+﻿  Employee.cpp
+D:\CPP_Training\EmpManagement\EmpManagement\EmpManagement\Employee.cpp(11,42): warning C4244: 'return': conversion from 'const double' to 'int', possible loss of data
+  EmpManagement.cpp
+D:\CPP_Training\EmpManagement\EmpManagement\EmpManagement\EmpManagement.cpp(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\CPP_Training\EmpManagement\EmpManagement\EmpManagement\EmpManagement.cpp(6,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\xmemory(700,103): warning C4244: 'argument': conversion from '_Ty' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\xmemory(700,103): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\xmemory(700,103): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\xmemory(700,103): warning C4244:             _Ty=double
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\xmemory(700,103): warning C4244:         ]
+  (compiling source file 'EmpManagement.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\xmemory(700,103):
+      the template instantiation context (the oldest one first) is
+          D:\CPP_Training\EmpManagement\EmpManagement\EmpManagement\EmpManagement.cpp(22,15):
+          see reference to function template instantiation 'void std::vector<Employee,std::allocator<Employee>>::emplace_back<int,const char(&)[11],double,Department>(int &&,const char (&)[11],double &&,Department &&)' being compiled
+          C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\vector(858,24):
+          see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<int,const char(&)[11],double,Department>(int &&,const char (&)[11],double &&,Department &&)' being compiled
+          with
+          [
+              _Ty=Employee
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\vector(776,20):
+          see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<int,const char(&)[11],double,Department>(int &&,const char (&)[11],double &&,Department &&)' being compiled
+          with
+          [
+              _Ty=Employee
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\vector(794,27):
+          see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,int,const char(&)[11],double,Department>(_Alloc &,_Objty *const ,int &&,const char (&)[11],double &&,Department &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<Employee>,
+              _Ty=Employee,
+              _Objty=Employee
+          ]
+  
+  Generating Code...
+  EmpManagement.vcxproj -> D:\CPP_Training\EmpManagement\EmpManagement\EmpManagement\x64\Debug\EmpManagement.exe

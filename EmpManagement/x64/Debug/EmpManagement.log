@@ -1,0 +1,46 @@
+﻿  EmpManagement.cpp
+D:\CPP_Training\EmpManagement\EmpManagement - DesignPatterns\EmpManagement\EmpManagement.cpp(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\CPP_Training\EmpManagement\EmpManagement - DesignPatterns\EmpManagement\EmpManagement.cpp(7,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\CPP_Training\EmpManagement\EmpManagement - DesignPatterns\EmpManagement\EmpManagement.cpp(8,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\CPP_Training\EmpManagement\EmpManagement - DesignPatterns\EmpManagement\EmpManagement.cpp(10,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\CPP_Training\EmpManagement\EmpManagement - DesignPatterns\EmpManagement\ISorter.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'EmpManagement.cpp')
+  
+D:\CPP_Training\EmpManagement\EmpManagement - DesignPatterns\EmpManagement\ISorter.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'EmpManagement.cpp')
+  
+D:\CPP_Training\EmpManagement\EmpManagement - DesignPatterns\EmpManagement\ISorter.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'EmpManagement.cpp')
+  
+D:\CPP_Training\EmpManagement\EmpManagement - DesignPatterns\EmpManagement\IEmployeeObserver.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'EmpManagement.cpp')
+  
+D:\CPP_Training\EmpManagement\EmpManagement - DesignPatterns\EmpManagement\EmpManagement.cpp(13,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\CPP_Training\EmpManagement\EmpManagement - DesignPatterns\EmpManagement\EmpManagement.cpp(79,14): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\xutility(476,82): warning C4244: 'argument': conversion from '_Ty' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\xutility(476,82): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\xutility(476,82): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\xutility(476,82): warning C4244:             _Ty=double
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\xutility(476,82): warning C4244:         ]
+  (compiling source file 'EmpManagement.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\xutility(476,82):
+      the template instantiation context (the oldest one first) is
+          D:\CPP_Training\EmpManagement\EmpManagement - DesignPatterns\EmpManagement\EmpManagement.cpp(128,33):
+          see reference to function template instantiation 'std::shared_ptr<Employee> std::make_shared<Employee,int,const char(&)[11],double,Department>(int &&,const char (&)[11],double &&,Department &&)' being compiled
+          C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\memory(2913,46):
+          see reference to function template instantiation 'std::_Ref_count_obj2<Employee>::_Ref_count_obj2<_Ty,const char(&)[11],double,Department>(_Ty &&,const char (&)[11],double &&,Department &&)' being compiled
+          with
+          [
+              _Ty=int
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\memory(2100,18):
+          see reference to function template instantiation 'void std::_Construct_in_place<_Ty,int,const char(&)[11],double,Department>(_Ty &,int &&,const char (&)[11],double &&,Department &&) noexcept(false)' being compiled
+          with
+          [
+              _Ty=Employee
+          ]
+  
+  EmployeeConsumer.cpp
+  EmployeeProducer.cpp
+  Generating Code...
+  EmpManagement.vcxproj -> D:\CPP_Training\EmpManagement\EmpManagement - DesignPatterns\x64\Debug\EmpManagement.exe
